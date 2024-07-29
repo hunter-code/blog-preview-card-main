@@ -43,11 +43,14 @@ main .text-one p {
     margin-top: 15px;
     font-size: 24px;
     font-family:Figtree;
-    font-weight: 800;
-    
-    
+    font-weight: 800;    
 }
 
+h1:hover {
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+    transition: 0.3s;
+}
 .text-two{
     margin-top: 15px;
     font-size: 16px;
